@@ -1,4 +1,4 @@
-// Print 1 to N linearly
+// Print N to 1 linearly
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -14,8 +14,8 @@ void print_r(int i,int N){
 void print_b(int i,int N){
     if(i>N) return;
 
-    print_b(i+1,N);
-    cout<<i<<endl;
+    print_b(i+1,N);   // calling first
+    cout<<i<<endl;    // printing second
     
 }
 
